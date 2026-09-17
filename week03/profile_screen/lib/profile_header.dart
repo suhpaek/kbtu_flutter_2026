@@ -23,7 +23,7 @@ class ProfileHeader extends StatelessWidget {
         Text(
           name,
           style: TextStyle(
-            fontFamily: 'Inter',
+            fontFamily: 'SourceSerif4',
             fontSize: 24,
             fontWeight: FontWeight.bold,
             color: colorScheme.onSurface,
