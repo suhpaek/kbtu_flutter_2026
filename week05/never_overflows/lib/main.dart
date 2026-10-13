@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
     darkTheme: ThemeData(
       colorScheme: ColorScheme.fromSeed(
         seedColor: Colors.deepPurple,
-        brightness: Brightness.dark,
+        brightness: Brightness.light,
       ),
     ),
-    themeMode: ThemeMode.system,
+    themeMode: ThemeMode.light,
     home: const HomeScreen(),
   );
 }

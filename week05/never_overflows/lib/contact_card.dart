@@ -49,7 +49,7 @@ class ContactCard extends StatelessWidget {
               ],
             ),
             const SizedBox(width: 12),
-            // Overflowed by 176 pixels on the right without Expanded here.
+            
             Expanded(
               child: Column(
                 mainAxisSize: MainAxisSize.min,
